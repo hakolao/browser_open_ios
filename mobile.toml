@@ -5,5 +5,5 @@ domain = "example.com"
 template-pack = "winit"
 
 [apple]
-# Change this team to your developer account
+# Change this team to your team id
 development-team = "8KRAT5VVZQ"
