@@ -1259,7 +1259,7 @@ dependencies = [
 [[package]]
 name = "webbrowser"
 version = "0.7.1"
-source = "git+https://github.com/hakolao/webbrowser-rs?branch=ios-open-url#995d0a8d08ca4f176aad9b77a508912b0f521a66"
+source = "git+https://github.com/hakolao/webbrowser-rs?branch=ios-open-url#1747430659e3ec55caf8c1f89a08b77515be4063"
 dependencies = [
  "jni",
  "ndk-glue 0.6.2",
