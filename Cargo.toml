@@ -1,0 +1,17 @@
+[package]
+name = "browser-open"
+version = "0.1.0"
+authors = ["hakolao <okkohakola@gmail.com>"]
+edition = "2018"
+
+[lib]
+crate-type = ["staticlib", "rlib"]
+
+[[bin]]
+name = "browser-open-desktop"
+path = "gen/bin/desktop.rs"
+
+[dependencies]
+mobile-entry-point = "0.1.0"
+winit = "0.27"
+webbrowser = { version = "0.7", git = "https://github.com/hakolao/webbrowser-rs", branch = "ios-open-url" }

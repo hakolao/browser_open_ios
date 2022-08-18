@@ -1,0 +1,9 @@
+[app]
+name = "browser-open"
+stylized-name = "Browser Open"
+domain = "example.com"
+template-pack = "winit"
+
+[apple]
+# Change this team to your developer account
+development-team = "8KRAT5VVZQ"
